@@ -4,3 +4,7 @@
 
 auth_jwt_login_check:
   path: /auth/jwt_login_check
+
+auth_token_refresh:
+  path: auth/token/refresh
+  controller: gesdinet.jwtrefreshtoken::refresh
